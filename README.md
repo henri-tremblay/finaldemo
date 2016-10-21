@@ -19,6 +19,10 @@ backward compatibility issue.
 
 Fix in the liquibase-hibernate code.
 
+### Issue #3
+
+Hibernate has changed its naming strategy. I filed an [issue](https://hibernate.atlassian.net/browse/HHH-11193) 
+to see if that was meant to be. Meanwhile, I have two choices. One is to leave it like that. The other is to add a custom naming strategy in JHipster. Anyhow, there is nothing you can do about it.
 ## Steps to see the errors
 
 ```bash
