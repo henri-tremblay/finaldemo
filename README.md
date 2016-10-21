@@ -15,7 +15,10 @@ So the application will now start normally. But of course, I'm rewriting history
 who already have done a load data in database will still have the problem. But it is a liquibase
 backward compatibility issue.
 
-# Issu
+### Issue #2
+
+Fix in the liquibase-hibernate code.
+
 ## Steps to see the errors
 
 ```bash
